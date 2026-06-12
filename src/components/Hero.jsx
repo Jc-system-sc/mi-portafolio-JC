@@ -4,7 +4,7 @@ const ROLES = [
   'Desarrollador Web',
   'Estudiante de Sistemas',
   'Apasionado por el código',
-  'Buscando oportunidades',
+  'Pensamiento Creativo',
 ];
 
 export default function Hero({ onDownloadCV }) {
@@ -74,7 +74,7 @@ export default function Hero({ onDownloadCV }) {
 
         {/* Descripción */}
         <p className="hero-desc">
-          Construyo soluciones digitales con código limpio y un ojo puesto en la
+          Construyo soluciones digitales con código limpio mejorando la
           experiencia de usuario. Apasionado por el desarrollo web y los sistemas
           bien diseñados.
         </p>
@@ -105,8 +105,8 @@ export default function Hero({ onDownloadCV }) {
 
       {/* Franja inferior editorial */}
       <div className="hero-footer-bar">
-        <span>01 / Presentación</span>
-        <span>jcsaravia.dev</span>
+        <span>01 | Presentación</span>
+        <span>Jc.Sarvavia</span>
       </div>
     </section>
   );

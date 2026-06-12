@@ -23,8 +23,8 @@ export default function About() {
 
             <div className="about-stats">
               {[
-                { value: '5+', label: 'Proyectos realizados' },
-                { value: '3er', label: 'Año de carrera' },
+                { value: '15+', label: 'Proyectos realizados' },
+                { value: '4to', label: 'Año de carrera' },
                 { value: '∞',  label: 'Ganas de aprender' },
               ].map(s => (
                 <div key={s.label}>
@@ -37,9 +37,9 @@ export default function About() {
 
           {/* Card terminal */}
           <div className="about-card">
-            <p className="about-card-prompt">$ whoami</p>
+            <p className="about-card-prompt">DATOS PERSONALES</p>
             {[
-              { key: 'Nombre',     val: 'JC Saravia' },
+              { key: 'Nombre',     val: 'José Saravia' },
               { key: 'Carrera',    val: 'Ing. de Sistemas' },
               { key: 'Email',      val: 'jcsaraviac05@gmail.com' },
               { key: 'Disponible', val: 'Prácticas / Freelance' },

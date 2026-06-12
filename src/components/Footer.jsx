@@ -33,7 +33,7 @@ export default function Footer({ onOpenModal }) {
           <div>
             <div className="footer-logo">JC Saravia</div>
             <p className="footer-tagline">
-              Estudiante de Ing. de Sistemas · Desarrollador apasionado
+              Estudiante de Ing. de Sistemas · Desarrollador web
             </p>
           </div>
 
