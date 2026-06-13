@@ -6,12 +6,13 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Modals from './components/Modals';
+import Viax from './components/Viax/Viax'; // 👈 línea 1: importar
+
 
 export default function App() {
   const [activeModal, setActiveModal] = useState(null);
 
   const handleDownloadCV = () => {
-    // Reemplaza 'cv.pdf' con la ruta a tu archivo CV en /public
     const link = document.createElement('a');
     link.href = '/CV-Josec.pdf';
     link.download = 'CV-Josec.pdf';
@@ -32,6 +33,8 @@ export default function App() {
       <Footer onOpenModal={setActiveModal} />
 
       <Modals active={activeModal} onClose={() => setActiveModal(null)} />
+
+      <Viax /> {/* 👈 línea 2: usar el componente */}
     </>
   );
 }
